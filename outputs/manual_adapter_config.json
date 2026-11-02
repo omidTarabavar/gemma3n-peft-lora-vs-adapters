@@ -1,0 +1,6 @@
+{
+  "adapter_dim": 16,
+  "hidden_size": 2048,
+  "number_of_layers": 30,
+  "base_model": "google/gemma-3n-E2B"
+}

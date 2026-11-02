@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Downloaded base model and course datasets (not redistributed)
+model/
+datasets/*
+!datasets/README.md
+datasets.zip
+datasets(1).zip
+
+# Crash-recovery checkpoints written during training
+results/*_recovery.pt
